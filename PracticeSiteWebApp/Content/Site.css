@@ -1,0 +1,102 @@
+﻿.container-fluid {
+    text-align: center;
+    font-family: 'Cantarell', sans-serif;
+    padding:0;
+    /*background-image: url('pictures/Ruined-Shed-000058236200_Medium.jpg');*/
+}
+/*div{
+    border:.5px solid #e6e8e9;
+}
+
+.col-md-12{
+    border:1px solid #d1d3d1;
+}*/
+
+#header {
+    background-color:#d1d3d1;
+}
+#subheader{
+    font-family: 'Sacramento', cursive;
+}
+
+
+.nav ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+    text-align:center;
+}
+.nav li{
+    display: inline-block;
+    /*margin-right: -4px;*/
+}
+.nav a{
+    text-decoration:none;
+}
+
+div.mainImage {
+    background: url('../Images/Ruined-Shed-000058236200_Medium.jpg') center no-repeat;
+}
+.img-responsive{
+    background-size:100% auto;
+    /*background-size:cover;*/
+}
+.vertical-center{
+    align-items: center;
+    min-height: 400px;
+    display:flex;
+}
+.overlay {
+    margin:0 auto;
+    margin-bottom: 10px;
+    padding:20px;
+    background: #434647;
+    color: #fff;
+    opacity:.8;
+}
+div.otherImage{
+    background: url(http://www.wallpapermaven.com/i/abstract/39/Layered-Gray-Squares-d.jpg) center no-repeat;
+}
+div.RRpic {
+    background: url('../Images/nature-forest-industry-rails.jpg') center no-repeat;
+}
+.whiteoverlay{
+    margin:0 auto;
+    padding:20px;
+    background:white;
+    color:gray;
+    opacity:.8;
+}
+.white{
+    margin:0 auto;
+    padding:20px;
+}
+
+.vertical-center2{
+    min-height: 340px;
+    display:flex;
+    align-items: center;
+}
+.vertical-center3{
+    min-height: 340px;
+    display:flex;
+    align-items:flex-end;
+}
+.square{
+    max-width:340px;
+    min-height:340px;
+}
+
+#coloredBox{
+    background-color:#66cebf;
+    min-height:340px
+}
+
+#footer{
+    background-color:#e6e8e9;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    padding-right: 0;
+    padding-left: 0;
+}
